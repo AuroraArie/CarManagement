@@ -68,7 +68,7 @@ public class ManageUserController extends HttpServlet {
             request.getSession().setAttribute("ERROR_MSG", "Có lỗi xảy ra, vui lòng thử lại!");
         }
 
-        // Làm mới lại trang để hiện dữ liệu mới
+        // Làm mới lại trang để hiện dữ liệu mới 
         response.sendRedirect("manageUsers");
     }
 }
